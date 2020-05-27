@@ -3,6 +3,17 @@
   margin:0;
 }
 
+@viewport{
+  zoom:1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport{
+  width:extend-to-zoom;
+  zoom:1.0;
+  
+}
+
 body{
   background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://hdwallsource.com/img/2020/9/pubg-game-background-hd-wallpaper-70220-72593-hd-wallpapers.jpg');
   background-position: center;
