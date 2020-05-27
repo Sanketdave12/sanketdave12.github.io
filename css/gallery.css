@@ -3,6 +3,18 @@
   padding: 0px;
 
 }
+
+@viewport{
+  zoom:1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport{
+  width:extend-to-zoom;
+  zoom:1.0;
+  
+}
+
 div.s{
   margin-left: 15%;
   position: absolute;
