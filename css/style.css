@@ -1,0 +1,83 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Century Gothic;
+}
+
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+ul{
+  float:right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding : 5px 20px;
+  border: 1px solid white transperent;
+  transition: 0.6s ease;
+  /* for the smoothness of pointer while moving on home , about , gallery and contact */
+}
+
+
+ul li a:hover{
+  color: black;
+  background-color: white;
+}
+
+ul li.active a{
+  color: black;
+  background-color: white;
+
+}
+
+.logo img{
+  float: left;
+  width: 100px;
+  height: auto;
+  opacity: 0.7;
+}
+
+.title{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color:white;
+  font-size:70px;
+}
+
+.button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+   border:1px solid white;
+   padding: 10px 30px;
+   color: white;
+   text-decoration: none;
+   transition: 0.6s ease;
+}
+
+.btn:hover{
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 10px red,0 0 40px blue,0 0 80px green;
+}

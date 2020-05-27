@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin:0;
+}
+
+body{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://hdwallsource.com/img/2020/9/pubg-game-background-hd-wallpaper-70220-72593-hd-wallpapers.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 100vh;
+}
+
+p{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  font-size: 70px;
+  color: white;
+  font-family: 'Taviraj', serif;
+
+}
+
+p.t{
+  font-size: 70px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+p.y{
+  font-size: 40px;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 2px 4px 6px blue;
+}
+
+body.s{
+  font-family: Century Gothic;
+}
+
+a{
+  border-radius: 5px;
+  border: 2 px solid white;
+}
+.b{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+.g{
+  background-image: linear-gradient(to left,yellow,blue );
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 80px;
+        font-weight: bold;
+}
+
+.h{
+  text-shadow: 2px 4px 6px blue;
+
+}
+
+.c{
+  border:1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.c:hover{
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 10px red,0 0 40px white,0 0 80px blue;
+}
+
+
+.social{
+  position: fixed;
+  top: 20%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.social a{
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+a i{
+  transition: all 0.6s linear;
+}
+
+a:hover i{
+  transform: scale(1.1);
+}
+
+.fa-facebook-square{
+  color:skyblue;
+}
+
+.fa-instagram{
+  background-image: linear-gradient(to left,red,blue);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+
+.fa-youtube{
+  color: red;
+}

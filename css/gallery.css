@@ -1,0 +1,77 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+div.s{
+  margin-left: 15%;
+  position: absolute;
+  top: 45%;
+  left:30%
+  transform: translate(-50%,-50%);
+  opacity: 0.8;
+}
+
+div.p{
+  margin-left: 15%;
+  position: absolute;
+  top: 10%;
+  left:30%
+  transform: translate(-50%,-50%);
+  opacity: 0.8;
+}
+
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('https://imgpile.com/images/f90160aa3e462a1bfa42f8c575a67abc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+p.d{
+  color:white;
+  font-size: 20px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.d{
+  position: absolute;
+  top: 90%;
+  left:30%;
+  margin-left:20%;
+  transform: translate(-50%,-50%);
+}
+
+a.e{
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.e{
+  position: absolute;
+  top: 95%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding: 10px 30px;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+a.e:hover{
+  color: black;
+  background-color: white;
+  transition: 0.6s ease;
+  box-shadow: 0 0 10px red,0 0 40px blue,0 0 80px green;
+}
+
+a.g{
+  float: left;
+  width: 100px;
+  height: auto;
+  margin-top: 1%;
+  margin-left: 3%;
+  font-size: 15px;
+  color: white;
+  font-family:  'Cairo', sans-serif;
+
+
+}

@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+p:hover{
+  color: white;
+  background-color: transperent;
+  font-size: 22px;
+}
+
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://images8.alphacoders.com/818/818978.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+a.g{
+  float: left;
+  width: 100px;
+  height: auto;
+  margin-top: 1%;
+  margin-left: 3%;
+  font-size: 15px;
+  color: white;
+  font-family:  'Cairo', sans-serif;
+}
